@@ -1,0 +1,21 @@
+body {
+  font-family: 'Pretendard', Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  line-height: 100%;
+  color: #262626;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section p {
+    font-size: 14px;
+    color: #444;
+}
+
+a:hover {
+  background-color: #C5D6E5;
+}
