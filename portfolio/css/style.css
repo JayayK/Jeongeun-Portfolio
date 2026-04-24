@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+  }
+  
+  h1, h2, h3, .profile {
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #e2f5d7;
+  }
+
+  nav ul {
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+  }
+
+  header {
+    position: relative;
+    top: 100px;
+  }
