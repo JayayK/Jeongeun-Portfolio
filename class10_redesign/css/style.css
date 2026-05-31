@@ -1,0 +1,147 @@
+@import url('https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'SUIT',sans-serif;
+    background:#f5f5f5;
+    color:#222;
+}
+
+img{
+    width:100%;
+    display:block;
+}
+
+a{
+    text-decoration:none;
+}
+
+/* Back Button */
+.back-btn{
+    position:fixed;
+    top:32px;
+    left:32px;
+    z-index:1000;
+  
+    display:flex;
+    align-items:center;
+    gap:6px;
+  
+    padding:12px;
+  
+    background:rgba(255,255,255,0.8);
+    backdrop-filter:blur(10px);
+  
+    border:1px solid rgba(0,0,0,0.08);
+    border-radius:999px;
+  
+    color:#355c0f;
+    font-size:15px;
+    font-weight:600;
+  
+    transition:.3s;
+  }
+  
+  .back-btn:hover{
+    background:rgba(255,255,255,0.7);
+    color:white;
+  }
+
+  .back-btn img {
+    width: 24px;
+    height: 24px;
+  }
+
+/* -------------------
+   layout
+------------------- */
+
+.project-detail{
+    padding:80px 0 120px;
+}
+
+.project-header{
+    margin-bottom:70px;
+}
+
+.project-category{
+    font-size:24px;
+    color:#999;
+    font-weight:300;
+    margin-bottom:10px;
+}
+
+.project-header h1{
+    font-size:40px;
+    line-height:1.25;
+    color:#355c0f;
+    font-weight:800;
+}
+/* -------------------
+   compare
+------------------- */
+
+.compare-box{
+    text-align:center;
+}
+
+.compare-title{
+    height:52px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+
+    font-size:24px;
+    font-weight:700;
+
+    margin-bottom:20px;
+}
+
+.compare-wrap{
+    width:100%;
+    max-width:1200px;
+
+    margin:0 auto;
+
+    display:flex;
+    gap:80px;
+}
+
+.compare-box{
+    flex:1;
+    min-width:0;
+}
+
+.compare-box img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+/* -------------------
+   responsive
+------------------- */
+
+@media(max-width:992px){
+
+    .project-header h1{
+        font-size:48px;
+    }
+
+    .compare-box{
+        margin-bottom:50px;
+    }
+
+    .back-btn{
+        left:20px;
+        top:20px;
+    }
+
+}

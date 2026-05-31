@@ -1,120 +1,155 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
-        <link rel="stylesheet" href="css/style.css" type="text/css">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <body>
-        <nav>
-            <ul>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+<title>JEONGEUN.KIM Portfolio</title>
 
-        <!-- Hero Section -->
-        <header class="hero-section">
-            <div class="container">
-                <div class="row align-items-center">
-        
-                    <div class="col-sm-6">
-                        <h1>
-                            <span class="grayText">Hello!</span>
-                            <span class="kr-text">안녕하세요!</span><br>
-        
-                            <span class="titleGroup">
-                                <span class="grayText">This is</span>
-                                <span class="name-text">Jeongeun Kim.</span>
-                                <p class="sub-text">김정은입니다.</p>
-                            </span>
-                        </h1>
+<link rel="stylesheet" href="css/bootstrap-grid.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+
+<nav>
+    <a href="#" class="logo">JEONGEUN.KIM</a>
+
+    <ul>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-wrap">
+            <h1 class="hero-title">
+                JEONGEUN<span>.</span>KIM
+            </h1>
+
+            <div class="hero-line"></div>
+
+            <div class="hero-sub">
+                UX/UI DESIGNER<br>
+                PORTFOLIO
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="project" id="project">
+    <div class="container">
+        <h2 class="section-title">Project</h2>
+        <p class="section-desc">
+            2026년 1학기 웹디자인 수업의 과제물들을 소개합니다.
+        </p>
+        <div class="row g-5">
+            <div class="col-lg-6">
+                <a href="./class5_book/class5_book.html" class="project-card">
+                    <img src="./img/proj_book.png" alt="밝은 밤">
+                    <p class="category">Book</p>
+                    <div class="project-info">
+                        <h3>밝은 밤</h3>
+                        <span>html, css</span>
                     </div>
-        
-                    <div class="col-sm-6">
-                        <figure>
-                            <img src="./assets/hero_Img.png"
-                                 alt="hero image"
-                                 class="intro-img">
-                            <figcaption>
-                                <img src="./assets/icon_info.svg" alt="info icon" width="16px">
-                                ChatGPT로 생성된 이미지입니다.
-                                <img src="./assets/gpt_history.jpg"
-                                    alt="gpt history"
-                                    class="hover-img">
-                            </figcaption>
-                        </figure>
-                        
+                </a>
+            </div>
+
+            <div class="col-lg-6">
+                <a href="./class6_harry/index.html" class="project-card">
+                    <img src="./img/proj_harry.png" alt="Harry Potter">
+                    <p class="category">Character</p>
+
+                    <div class="project-info">
+                        <h3>Harry Potter</h3>
+                        <span>html, css</span>
                     </div>
+                </a>
+
+            </div>
+
+            <div class="col-lg-6 mt-custom">
+                <a href="../webdesign_2026/class10_redesign/index.html" class="project-card">
+                    <img src="./img/proj_redesign.png" alt="대한상공회의소">
+                    <p class="category">Re-design</p>
+
+                    <div class="project-info">
+                        <h3>대한상공회의소 웹사이트</h3>
+                        <span>html, css, figma</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-6 mt-custom">
+                <div class="coming">
+                    More to Come... *
                 </div>
             </div>
-        </header>
+        </div>
+    </div>
+</section>
 
-        <!-- Work Section -->
-        <section class="work-section" id="work">
-            <div class="container">
-                <h2>Work</h2>
-                <p>2026년 1학기 웹디자인 수업의 과제물들을 소개합니다.</p>
+<section class="about" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h2 class="about-title">About</h2>
+                <p class="about-sub">
+                    Jeongeun Kim — UX/UI Designer
+                </p>
+            </div>
 
-                <div class="row">
-                    <!-- Card 1 -->
-                    <div class="col-sm">
-                        <a href="./class5_book/class5_book.html">
-                            <div class="work-card">
-                                <figure>
-                                    <img src="./assets/book.png" alt="book icon" width="80px">
-                                </figure>
+            <div class="col-lg-8 about-text">
+                <p>
+                    책을 읽고, 글을 쓰고, 전시를 보러 다니는 것을 좋아합니다.</br>
+                    좋아하는 것들을 가만히 들여다보다 보면 자연스럽게 "왜?"라는 질문을 하게 됩니다.
+                    <span>왜 이 문장은 오래 기억에 남는지,
+                        왜 이 공간은 편안한지,
+                        왜 어떤 경험은 자연스럽게 이어지는지.
+                    </span>
+                    저는 그런 작은 궁금증에서 출발해 UX/UI 디자인을 공부하고 있습니다. 현재 <span>한양사이버대학교 뉴미디어디자인을 전공</span>하며 Figma, Adobe 툴과 HTML, CSS를 활용하여 다양한 프로젝트를 만들어가고 있습니다.
+                </p>
 
-                                <p>책 소개</p>
-                                <h3>밝은 밤 ↗</h3>
-                            </div>
-                        </a>
-                    </div>
+                <p>
+                    I enjoy reading, writing, and spending time at exhibitions.</br>
+                    The things I love often lead me to simple questions:
+                    <span>Why do some words linger in our minds?
+                        Why do certain spaces feel welcoming?
+                        Why do some experiences feel effortless?
+                    </span>
+                    As a <span>New Media Design student at HYCU</span>, I explore ideas through various projects using Figma, Adobe tools, HTML and CSS.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
-                    <!-- Card 2 -->
-                    <div class="col-sm">
-                        <a href="./class6_harry/index.html">
-                            <div class="work-card">
-                                <figure>
-                                    <img src="./assets/sparkles.png" alt="sparkles icon" width="80px">
-                                </figure>
+<footer id="contact">
+    <div class="container">
+        <div class="row align-items-end">
+            <div class="col-lg-6 footer-left">
+                <h3>Contact</h3>
+                <ul class="footer-contact">
+                    <li><a href="#">E-mail</a></li>
+                    <li><a href="#">Behance</a></li>
+                    <li><a href="#">Resume</a></li>
+                </ul>
+                <p class="copy">
+                    © 2026 Jeongeun Kim
+                </p>
+            </div>
 
-                                <p>캐릭터 소개</p>
-                                <h3>Harry Potter ↗</h3>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!-- Card 3 -->
-                    <div class="col-sm">
-                        <a href="#">
-                            <div class="work-card">
-                                <figure>
-                                    <img src="./assets/document.png" alt="document icon" width="80px">
-                                </figure>
-
-                                <p>웹사이트 UI 제작</p>
-                                <h3>기획서 ↗</h3>
-                            </div>
-                        </a>
-                    </div>
+            <div class="col-lg-6">
+                <div class="footer-logo">
+                    JEONGEUN.KIM
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</footer>
 
-        <!-- Contact Section -->
-        <footer id="contact">
-            <h2>Thank you for visiting!</h2>
-            <p>
-                궁금한게 있으시면 <a href="">메일</a>로 연락주세요 :&#41;
-            </p>
-
-            <p>
-                저의 포트폴리오 사이트에 방문해주셔서 감사합니다!<br>
-                © 2026 Jeongeun Kim
-            </p>
-        </footer>
-    </body>
+</body>
 </html>

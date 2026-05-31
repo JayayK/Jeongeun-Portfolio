@@ -7,6 +7,38 @@ body {
   padding: 0 24px;
 }
 
+
+/* Back Button */
+.back-btn{
+  position:fixed;
+  top:32px;
+  left:32px;
+  z-index:1000;
+
+  display:flex;
+  align-items:center;
+  gap:6px;
+
+  padding:12px;
+
+  background:rgba(255,255,255,0.8);
+  backdrop-filter:blur(10px);
+
+  border:1px solid #e8e8e8;
+  border-radius:999px;
+
+  color:#355c0f;
+  font-size:15px;
+  font-weight:600;
+
+  transition:.3s;
+}
+
+.back-btn:hover{
+  background:#fafafa;
+  color:white;
+}
+
 h1{
   margin: 20px 0;
 }
